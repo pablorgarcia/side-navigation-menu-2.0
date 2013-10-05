@@ -1,17 +1,16 @@
 <h1>License</h1>
-<h2>Side Navigation Menu V2, RWD</h2>
-<h3>Created by Pablo García Fernández</h3>
+<h2>Side Navigation Menu V2, RWD. By Pablo García Fernández</h2>
 
 <p>This is a human-readable summary of the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode" target="_blank">Legal Code (the full license).</p>
 
-<h4>You are free:</h4>
+<h3>You are free:</h3>
 
 <ul>
   <li>o Share — to copy, distribute and transmit the work</li>
   <li>to Remix — to adapt the work</li>
 </ul>
 
-<h4>Under the following conditions:</h4>
+<h3>Under the following conditions:</h3>
 
 <ul>
   <li>Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</li>
@@ -19,7 +18,7 @@
   <li>Share Alike — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</li>
 </ul>
 
-<h4>With the understanding that:</h4>
+<h3>With the understanding that:</h3>
 
 <ul>
   <li>Waiver — Any of the above conditions can be waived if you get permission from the copyright holder.</li>
