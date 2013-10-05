@@ -1,5 +1,5 @@
 <h1>License</h1>
-<h2>Side Navigation Menu V2, RWD. <a href="http://www.pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a></h2>
+<h2>Side Navigation Menu V2, RWD</h2>
 
 <p>This is a human-readable summary of the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode" target="_blank">Legal Code (the full license).</p>
 
@@ -34,3 +34,12 @@
 </ul>
   
 <p>You can get more information on this <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">link</a>.</p>
+
+<a style="font-size: 1em;
+font-weight: 700;
+letter-spacing: -0.04em;
+text-decoration: none;
+text-transform: uppercase;
+color: #121212;
+margin: 1.4em 0 1.4em;" href="http://www.pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a>
+
