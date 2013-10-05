@@ -1,5 +1,5 @@
 <h1>License</h1>
-<h2>Side Navigation Menu V2, RWD. By Pablo García Fernández</h2>
+<h2>Side Navigation Menu V2, RWD. <a href="http://www.pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a></h2>
 
 <p>This is a human-readable summary of the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode" target="_blank">Legal Code (the full license).</p>
 
