@@ -1,13 +1,4 @@
-Navigation-Menu-V2-RWD
-======================
-
-CSS3 transition, Responsive Web Design technologies &amp; without JS
-
-
-
-
-
-<h1>Side Navigation Menu V2, Responsive Web Design</h1>
+<h1>Side Navigation Menu V2, RWD</h1>
 
 <p>The source code for www.pablogarciafernandez.com.</p>
 
