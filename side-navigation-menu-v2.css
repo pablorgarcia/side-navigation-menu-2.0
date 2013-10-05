@@ -1,0 +1,345 @@
+
+/* CSS Document
+
+	Name: Pablo García Fernández;
+	Website: pablogarciafernandez.com;
+	Twitter: @PableraShow;
+
+*/
+
+@import url(http://pablogarciafernandez.com/css/reset.css);
+
+/* Typography
+------------------------------------- */
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;	
+	font-style: normal;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-rendering: optimizeLegibility;
+	line-height: 1.8em;
+	color:#4D4D4D;
+}
+
+h1{
+	font-size: 2.25em;
+	font-weight: 400;
+  	line-height: 100%;
+	letter-spacing: -0.04em;
+    color: #666;
+}
+
+h2{
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 100%;
+	letter-spacing: -0.02em;	
+}
+
+h3{
+	font-size: 1.75em;
+	font-weight: 300;
+	line-height: 100%;
+	letter-spacing: -0.01em;
+}
+
+h4 {
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 100%;
+	letter-spacing: 0em;
+}
+
+p{
+	font-size: 1.16em;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+
+a{
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 100%;
+	color: #000;
+}
+
+a[href$="http://pablogarciafernandez.com"]{
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	margin: 1.4em 0;
+	display: inline-block;
+}
+
+section h1{
+    font-size: 1em;
+    line-height: 4em;
+    text-transform: uppercase;
+	color: #FF6524;
+}
+
+section h2{
+	font-size: 1.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.8em;
+}
+
+/* ----------- CodePen styles ----------- */
+	.codepen-style{
+		padding: 2em 0 0 0;
+
+	}
+
+		.codepen-style h1{
+			font-family: 'Open Sans', sans-serif;
+			font-size:3em; 
+			font-weight: 300;
+			color:#000;
+			line-height:1.8em;
+			text-transform: none;
+		}
+
+		.codepen-style h1 span{
+			font-style: italic;
+			font-weight: 700;
+			text-transform: none;
+			color: red;
+		}
+
+		.codepen-style h2{
+			font-weight: 300;
+			text-transform: none;
+		}
+
+		.codepen-style h2 a{
+			font-weight: 700;
+		}
+		
+
+/* ----------- End CodePen styles ----------- */
+
+
+/* Structure MOBILE FIRST
+------------------------------------- */
+
+body{
+    background: #f1f1f1;
+    padding: 1em 8%;
+}
+
+header{
+	padding-top: 2em;
+}
+
+	/* Navigation select
+	----------------- */
+	.navigation ul{
+		display: none;
+	}
+
+	.navigation select{
+		display: inline-block;
+		width: 100%;
+		height: 34px;
+		font-size: 1em;
+		padding: 4px 2%;
+		border: 0 none none;
+		color: #333;
+		border: 1px solid;
+		border-top: ;
+		border-left: ;
+		border-bottom: ;
+		border-right: ;
+	}
+	
+	.navigation .home-no-desk{ background-color:#00FF96; padding: 4px 2%; }
+	.navigation .about-no-desk{ background-color: #FF6524; padding: 4px 2%; }
+	.navigation .work-no-desk{ background-color: #FFA300; padding: 4px 2%; }
+	.navigation .lab-no-desk{ background-color: #FFCD00; padding: 4px 2%; }
+	.navigation .contact-no-desk{ background-color: #F2F600; padding: 4px 2%; }
+
+	.navigation ul{
+		display: none;
+	}
+
+	/* END Navigation select
+	----------------- */
+
+svg{
+	opacity:1;
+	fill-opacity:1;
+	fill-rule:nonzero;
+}
+.home{ fill:#00FF96; }
+.about{ fill: #FF6524; }
+.work{ fill: #FFA300; }
+.lab{ fill: #FFCD00; }
+.contact{ fill: #F2F600; }
+
+/* hover #333 de los svg del menu */
+.navigation a:hover .home, .navigation a:hover .about, .navigation a:hover .work, .navigation a:hover .lab, .navigation a:hover .contact { fill:#333; }
+
+section article{
+	padding-bottom: 2em;
+}
+
+/* Structure DESKTOP
+------------------------------------- */
+@media only screen and (min-width: 1024px) /*and (min-height: 600px)
+  OPTIMAL POSITION */{
+	
+	body{
+		padding: 0;
+	}
+
+	header, article, section, footer{
+	margin: 0 auto;
+	max-width: 670px;
+	width: auto;
+	display: block;
+	}
+
+
+	/* Navigation
+	----------------- */
+
+		/* Navigation select
+		----------------- */
+		.navigation select{
+			display: none;
+		}
+
+		/* END Navigation select
+		----------------- */
+
+	.navigation
+	{
+		transition-delay: 0s;
+	    transition-duration: 0.4s;
+	    transition-property: all;
+	    transition-timing-function: line;
+	}
+
+	.navigation a:hover
+	{
+		transition-delay: 0s;
+	    transition-duration: 0.2s;
+	    transition-property: all;
+	    transition-timing-function: line;
+	}
+
+	.navigation{
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		height: 100%;
+		width: 4em;
+		display: block;
+		background-color: #333;
+	}
+	.navigation:hover{
+		position: fixed;
+	    width: 9.5em;
+	}
+
+	.navigation ul{
+		display: block;
+	}
+
+	.navigation li{
+		display: block;
+	}
+
+	.navigation a{
+		display: block;
+		padding: 0.8em 0.7em 0.8em 1em;
+		margin: 0;
+		line-height: 2em;
+		font-size: 400;
+		color: #F1F1F1;
+		text-transform: uppercase;
+	}
+	.navigation a:hover{
+		display: inline-block;
+		padding: 0 0 0 1em;
+		margin: 0;
+		line-height: 2em;
+		font-weight: 400;
+		width: 6em;
+		background-color: #666;
+		color: #333;
+
+	}
+	.navigation:hover a{
+		display: inline-block;
+		width: 8.5em;
+		padding: 0.8em 0 0.8em 1em;
+	}
+	.navigation span{
+		display: inline-block;
+		text-indent: -200px;
+		padding-left: 0.5em;
+	}
+	.navigation:hover span{
+		display: inline-block;
+		text-indent: 0;
+
+	}
+	.active{
+		background-color: #F1F1F1;
+	}
+	.active span{
+		color: #333;
+	}
+	.active:hover span{
+		color: #F1F1F1;
+	}
+	.active svg{
+		fill:#000;
+	}
+
+	.navigation svg{
+		width: 30px;
+		height: 30px;
+		vertical-align: top;
+	}
+
+	/* Posicion de los menus en la barra de navegación */
+	.menu{
+	  top: 0;
+		left: 0;
+		position: fixed;
+		height: auto;
+		width: auto;
+	}
+
+  /* END Posicion de los menus en la barra de navegación */
+	
+
+	/* ----------------- 
+		End Navigation */
+}
+
+ /* Structure DESKTOP when is less to 1920px height
+------------------------------------- */
+@media only screen and (min-height: 1920px){
+	.navigation:hover {
+	    width: 8.592em;
+	}
+	.navigation a{
+		font-size: 0.9em;
+		padding: 0.8em 0.8259em 0.8em 1em;
+	}
+
+}
+
