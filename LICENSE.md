@@ -35,11 +35,14 @@
   
 <p>You can get more information on this <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">link</a>.</p>
 
-<a style="font-size: 3em;
-font-weight: 700;
-letter-spacing: -0.04em;
-text-decoration: none;
-text-transform: uppercase;
-color: #121212;
-margin: 1.4em 0 1.4em;" href="http://www.pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a>
+<style type="text/css">
+
+  a[href$="http://pablogarciafernandez.com"] {
+  
+    color:red;
+  
+  }
+
+</style>
+<a href="http://pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a>
 
