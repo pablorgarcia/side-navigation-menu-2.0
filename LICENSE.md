@@ -35,7 +35,7 @@
   
 <p>You can get more information on this <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">link</a>.</p>
 
-<a style="font-size: 1em;
+<a style="font-size: 3em;
 font-weight: 700;
 letter-spacing: -0.04em;
 text-decoration: none;
