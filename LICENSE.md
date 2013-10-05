@@ -35,14 +35,5 @@
   
 <p>You can get more information on this <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">link</a>.</p>
 
-<style type="text/css">
-
-  a[href$="http://pablogarciafernandez.com"] {
-  
-    color:red;
-  
-  }
-
-</style>
 <a href="http://pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a>
 
