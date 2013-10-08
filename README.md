@@ -10,4 +10,10 @@
 
 <p>If you think you can make this better, please Download, Fork, & Commit. I'd love to see your ideas.</p>
 
+<a href="http://www.pablogarciafernandez.com/lab/side-navigation-menu-v2.html" target="_blank">Code on official site</a>
+
+<a href="http://codepen.io/PableraShow/pen/HdJtv" target="_blank">Code on CodePen</a>
+
+===================
+
 <a href="http://pablogarciafernandez.com" title="Pablo García Fernández" target="_blank">Pablo García Fernández</a>
