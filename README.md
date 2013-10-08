@@ -1,7 +1,7 @@
 <h1>Side Navigation Menu V2, RWD</h1>
 
 <p>CSS3 transition, Responsive Web Design technologies & without JS.</p>
-<a href="http://www.pablogarciafernandez.com/lab/side-navigation-menu-v2.html" target="_blank">Check out the demo page</a>.
+<a href="http://www.pablogarciafernandez.com/lab/demo/side-navigation-menu-v2.html" target="_blank">Check out the demo page</a>.
 
 <h2>How it works</h2>
 <p>soon...</p>
