@@ -12,7 +12,7 @@
 
 <a href="http://www.pablogarciafernandez.com/lab/side-navigation-menu-v2.html" target="_blank">Code original</a>
 
-<a href="http://codepen.io/PableraShow/pen/hubAa" target="_blank">Code on CodePen</a>
+<a href="http://codepen.io/PableraShow/pen/hubAa" target="_blank">Demo on CodePen</a>
 
 ===================
 
