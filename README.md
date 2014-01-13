@@ -1,6 +1,6 @@
 <h1>Side Navigation Menu V2, RWD</h1>
 
-<p>CSS3 transition, Responsive Web Design technologies & without JS.</p>
+<p>CSS3 transition, box-shadow, transform properties. Responsive Web Design technologies & without JS.</p>
 <a href="http://www.pablogarciafernandez.com/lab/demo/side-navigation-menu-v2.html" target="_blank">Check out the demo page</a>.
 
 <h2>How it works</h2>
