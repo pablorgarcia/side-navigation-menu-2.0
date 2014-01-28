@@ -50,7 +50,9 @@ nav {
 <p>In the case sreen is larger than 1024px, the box-shadow property of <code>.navigation</code> is not used.</p>
 
 <pre>
-.navigation { box-shadow: none; }
+@media only screen and (min-width: 1024px) {
+	.navigation { box-shadow: none; }
+}
 </pre>
 
 <h3>Transform property</h3>
