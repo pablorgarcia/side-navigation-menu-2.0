@@ -35,7 +35,7 @@ nav {
 }
 </pre>
 
-<p>The next step is add another box-shadow property inside of <code>a:hover</code>.</p>
+<p>The next step is add another box-shadow property on <code>a:hover</code>, <nav> inside.</p>
 
 <pre>
 .navigation > ul > li > a:hover{
@@ -47,7 +47,11 @@ nav {
 }
 </pre>
 
-<!--p>When the sreen will be larger than 1024px, the box-shadow property are goint to used at the &lt;ul&gt; and &lt;li&gt; (just when is <code>:hover</code>) elements.</p-->
+<p>In the case sreen is larger than 1024px, the box-shadow property of <code>.navigation</code> is not used.</p>
+
+<pre>
+.navigation { box-shadow: none; }
+</pre>
 
 <h3>Transform property</h3>
 
