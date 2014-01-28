@@ -22,7 +22,7 @@ nav {
 
 <h3>Box-shadow property for 3D effect</h3>
 
-<p>When the sreen is smaller than 1024px, the box-shadow property are going to be used at the <code>.navigation</code>.</p>
+<p>When the screen is smaller than 1024px, the box-shadow property are going to be used at the <code>.navigation</code>.</p>
 
 <pre>
 .navigation {
