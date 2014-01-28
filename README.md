@@ -5,7 +5,7 @@
 
 <h2>How it works</h2>
 
-<h3>Side navigation transition property</h3>
+<h3>Transition property for movement to the side navigation</h3>
 <p>We have a &lt;nav&gt; tag on the left of the screen with <code>position: fixed;</code>, a width and a fixed height.</p>
 <p>Then we have a list with &lt;svg&gt; images and hidden links with <code>display: none;</code>, when we do a <code>:hover</code> over &lt;nav&gt; tag we added more <code>with</code> to the &lt;nav&gt; and a <code>display: block;</code> so that the links appear.</p>
 
@@ -19,7 +19,7 @@ nav {
   }
 </pre>
 
-<h3>Box-shadow property</h3>
+<h3>Box-shadow property for 3D effect</h3>
 
 <p>When the sreen is smaller than 1024px, the box-shadow property are going to be used at the <code>.navigation</code>.</p>
 
@@ -55,12 +55,18 @@ nav {
 }
 </pre>
 
-<h3>Transform property</h3>
+<h3>Transform property is to correct the position</h3>
 
-<p>We need lead the <code>.navigation</code> just the size of the box-shadow property that we write before.</p>
+<p>We need lead the <code>.navigation</code> just the same size of the box-shadow property that we wrote before.</p>
 
 <pre>
 .navigation { transform: translate3d(4px, 0px, 0); }
+</pre>
+
+<p>And create the new position for the <code>a:hover</code>.</p>
+
+<pre>
+.navigation a:hover { transform: translate3d(6px, 0px, 0); }
 </pre>
 
 <h2>Download, Fork, Commit.</h2>
