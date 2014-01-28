@@ -48,7 +48,7 @@ nav {
 }
 </pre>
 
-<p>But in the case sreen is larger than 1024px, the box-shadow property of <code>.navigation</code> is not used.</p>
+<p>But in the case screen is larger than 1024px, the box-shadow property of <code>.navigation</code> is not used.</p>
 
 <pre>
 @media only screen and (min-width: 1024px) {
@@ -58,7 +58,7 @@ nav {
 
 <h3>Transform property is to correct the position</h3>
 
-<p>We need lead the <code>.navigation</code> just the same size of the box-shadow property that we wrote before.</p>
+<p>We need to have the <code>.navigation</code> just the same size of the box-shadow property that we wrote before.</p>
 
 <pre>
 .navigation { transform: translate3d(4px, 0px, 0); }
