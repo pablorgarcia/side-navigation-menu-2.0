@@ -11,7 +11,7 @@
 
 <p>Finally, we have to write on the &lt;nav&gt; tag the CSS3 <code>transition</code> property:</p>
 <pre>
-nav{
+nav {
   transition-delay: 0s;
   transition-duration: 0.4s;
   transition-property: all;
