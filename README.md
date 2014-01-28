@@ -21,7 +21,7 @@ nav{
 
 <h3>Box-shadow property</h3>
 
-<p>When the sreen will be smaller than 1024px, the box-shadow property are goint to used at the &lt;ul&gt; and &lt;li&gt; (just when is <code>:hover</code>) elements.</p>
+<p>When the sreen is smaller than 1024px, the box-shadow property are going to be used at the <code>.navigation</code>.</p>
 
 <pre>
 .navigation {
@@ -35,7 +35,7 @@ nav{
 }
 </pre>
 
-<p>When the sreen will be larger than 1024px, the box-shadow property are goint to used at the &lt;ul&gt; and &lt;li&gt; (just when is <code>:hover</code>) elements.</p>
+<!--p>When the sreen will be larger than 1024px, the box-shadow property are goint to used at the &lt;ul&gt; and &lt;li&gt; (just when is <code>:hover</code>) elements.</p-->
 
 <h3>Transform property</h3>
 
