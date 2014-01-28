@@ -1,8 +1,9 @@
+
 /* CSS Document
 
-	Name: Pablo Garcia Fernandez
-	Twitter: @PableraShow
-	Website: http://pablogarciafernandez.com
+Name: Pablo Garcia Fernandez
+Twitter: @PableraShow
+Website: http://pablogarciafernandez.com
 
 */
 
@@ -32,6 +33,7 @@ h1 {
 	text-transform: uppercase;
 	color: #BDBDBD;
 }
+
 h2 {
 	font-size: 1.4em;
 	font-weight: 400;
@@ -43,7 +45,7 @@ p {
 	line-height: 4em;
 }
 
-p svg {
+p > svg {
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -54,9 +56,7 @@ a {
 	line-height: 100%;
 	color: #3A53BD;
 }
-a:hover {
-	text-decoration: none;
-}
+a:hover { text-decoration: none; }
 
 a[href$="http://pablogarciafernandez.com"] {
 	font-size: 1em;
@@ -69,13 +69,9 @@ a[href$="http://pablogarciafernandez.com"] {
 	display: inline;
 }
 
-/* ----------- CodePen styles ----------- */
-.codepen-style {
-	padding: 2em 0 0 0;
+article { padding: 2em 0 0 0; }
 
-}
-
-.codepen-style h1 {
+article > h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-size:3em; 
 	font-weight: 300;
@@ -84,22 +80,21 @@ a[href$="http://pablogarciafernandez.com"] {
 	text-transform: none;
 }
 
-.codepen-style h1 span {
+article > h1 > span {
 	font-style: italic;
 	font-weight: 700;
 	text-transform: none;
 	color: red;
 }
 
-.codepen-style h2 {
+article > h2 {
 	font-weight: 300;
 	text-transform: none;
 }
 
-.codepen-style h2 a {
+article > p > a {
 	font-weight: 700;
 }
-/* ----------- End CodePen styles ----------- */
 
 
 /* Structure MOBILE FIRST
@@ -114,19 +109,16 @@ body {
 ----------------- */
 
 .navigation {
+	width: 100%;
 	height: auto;
-	width: 100%;
 	display: block;
-	box-shadow: #D4D4D4 -1px 1px, #D4D4D4 -2px 2px, #D4D4D4 -3px 3px, #D4D4D4 -4px 4px, #D4D4D4 -5px 5px, #D4D4D4 -6px 6px;
-	transform: translate3d(4px, 0px, 0);
 	background-color: #D4D4D4;
+	box-shadow: #D4D4D4 -1px 1px, #D4D4D4 -2px 2px, #D4D4D4 -3px 3px, #D4D4D4 -4px 4px, #D4D4D4 -5px 5px, #D4D4D4 -6px 6px;
 
-
+	transform: translate3d(4px, 0px, 0);
 }
 
-.navigation li {
-	width: 100%;
-}
+.navigation li { width: 100%; }
 
 .navigation a {
 	display: block;
@@ -141,6 +133,7 @@ body {
 	background-color: #666;
 	color: #333;
 	box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;
+	
 	transform: translate3d(4px, -4px, 0);
 	transition: .15s;
 }
@@ -150,34 +143,35 @@ body {
 	padding-left: 0.2em;
 }
 
-.navigation li:nth-child(1) a { background-color: #00FF96 ; }
-.navigation li:nth-child(2) a { background-color: #FF6524 ; }
-.navigation li:nth-child(3) a { background-color: #FFA300 ; }
-.navigation li:nth-child(4) a { background-color: #FFCD00 ; }
-.navigation li:nth-child(5) a { background-color: #F2F600 ; }
+.navigation li:nth-child(1) > a { background-color: #00FF96 ; }
+.navigation li:nth-child(2) > a { background-color: #FF6524 ; }
+.navigation li:nth-child(3) > a { background-color: #FFA300 ; }
+.navigation li:nth-child(4) > a { background-color: #FFCD00 ; }
+.navigation li:nth-child(5) > a { background-color: #F2F600 ; }
 
-.navigation li:nth-child(1) a:hover,
-.navigation li:nth-child(2) a:hover,
-.navigation li:nth-child(3) a:hover,
-.navigation li:nth-child(4) a:hover,
-.navigation li:nth-child(5) a:hover { background-color: #666; }
+.navigation li:nth-child(1) > a:hover,
+.navigation li:nth-child(2) > a:hover,
+.navigation li:nth-child(3) > a:hover,
+.navigation li:nth-child(4) > a:hover,
+.navigation li:nth-child(5) > a:hover { background-color: #666; }
 
 .navigation svg {
 	width: 30px;
 	height: 1.5em;
 	vertical-align: text-top;
 }
+
 svg {
+	vertical-align: top;
 	opacity:1;
 	fill-opacity:1;
 	fill-rule:nonzero;
-	vertical-align: top;
 	fill: #333;
 }
 
 .navigation a:hover svg { fill: #333; }
 
-.navigation span{
+.navigation span {
 	display: inline-block;
 	padding-left: 0.5em;
 }
@@ -190,41 +184,37 @@ svg {
 ------------------------------------- */
 @media only screen and (min-width: 1024px) {
 
-	body {
-		padding: 2em 0 0 4em;
-	}
+	body { padding: 2em 0 0 4em; }
 
-	header, article, section, footer {
-		margin: 0 auto;
-		max-width: 670px;
+	article {
 		width: auto;
+		max-width: 670px;
 		display: block;
-	}
-
-	header {
-		padding-top: 0;
+		margin: 0 auto;
 	}
 
 /* Navigation
 ----------------- */
 
 .navigation {
+	box-shadow: 0 0;
+
 	transition-delay: 0s;
 	transition-duration: 0.4s;
 	transition-property: all;
 	transition-timing-function: line;
 
-	box-shadow: 0 0;
 	transform: translate3d(0px, 0px, 0);
 }
 
 .navigation a:hover {
+	box-shadow: #303030 -1px 1px, #333 -2px 2px, #2E2E2E -3px 3px, #2B2B2B -4px 4px, #292929 -5px 5px, #262626 -6px 6px;
+		
 	transition-delay: 0s;
 	transition-duration: 0.2s;
 	transition-property: all;
 	transition-timing-function: line;
 
-	box-shadow: #303030 -1px 1px, #333 -2px 2px, #2E2E2E -3px 3px, #2B2B2B -4px 4px, #292929 -5px 5px, #262626 -6px 6px;
 	transform: translate3d(6px, 0px, 0);
 }
 
@@ -233,22 +223,16 @@ svg {
 	left: 0;
 	top: 0;
 	bottom: 0;
-	height: 100%;
 	width: 4em;
+	height: 100%;
 	background-color: #333;
 }
 .navigation:hover {
-	position: fixed;
 	width: 10em;
 }
 
-.navigation ul {
-	display: block;
-}
-
-.navigation li {
-	display: block;
-}
+.navigation ul,
+.navigation li { display: block; }
 
 .navigation a {
 	padding: 0.8em 0.6em 0.8em 1em;
@@ -263,42 +247,34 @@ svg {
 .navigation li:nth-child(4) a,
 .navigation li:nth-child(5) a { background-color: transparent; }
 .navigation a:hover {
+	width: 6em; 
 	display: inline-block;
 	padding: 0 0 0 1em;
 	margin: 0;
-	line-height: 2em;
 	font-weight: 400;
-	width: 6em; 
+	line-height: 2em;
 }
 
 .navigation:hover a {
-	display: inline-block;
 	width: 9em;
+	display: inline-block;
 	padding: 0.8em 0 0.8em 1em;
 }
-.navigation span {
-	text-indent: -200px;
-}
+.navigation span { text-indent: -200px; }
 .navigation:hover span {
 	display: inline-block;
 	text-indent: 0;
 }
-.active {
-	background-color: #F1F1F1;
-}
-.navigation a > span:after {
-	color: #666;
-}
-.navigation a:hover > span:after {
-	color: #333;
-}
+.active { background-color: #F1F1F1; }
+
+.navigation a > span:after { color: #666; }
+.navigation a:hover > span:after { color: #333; }
 
 .navigation svg {
 	width: 30px;
 	height: 2em;
 	vertical-align: top;
 }
-
 .navigation svg:hover { fill: #333; }
 
 .home { fill: #00FF96; }
@@ -309,12 +285,12 @@ svg {
 
 /* Menu position on the navigation bar */
 .menu {
-	left: 0;
 	position: fixed;
-	height: auto;
+	top: 0;
+	left: 0;
 	width: auto;
+	height: auto;
 }
-.menu { top: 0; }
 /* END Menu position on the navigation bar */
 
 
@@ -325,14 +301,10 @@ End Navigation */
 
 /* Structure DESKTOP when is 1920px height or more
 ------------------------------------- */
-@media only screen and (min-height: 1920px){
-	.navigation:hover {
-		width: 8.592em;
-	}
+@media only screen and (min-height: 1920px) {
+	.navigation:hover { width: 8.592em; }
 	.navigation a {
 		font-size: 0.9em;
 		padding: 0.8em 0.8259em 0.8em 1em;
 	}
-
 }
-
