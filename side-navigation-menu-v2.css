@@ -1,4 +1,3 @@
-
 /*	
 	Side Navigation Menu V2, RWD
 	===================
@@ -8,8 +7,6 @@
 	Author: @PableraShow
 
 */
-
-@import url(http://pablogarciafernandez.com/css/reset.css);
 
 /* Typography
 ------------------------------------- */
@@ -105,6 +102,12 @@ article > p > a {
 body {
 	background: #f1f1f1;
 	padding: 1em 8% 10em;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
 }
 
 /* Navigation
@@ -229,9 +232,7 @@ svg {
 	height: 100%;
 	background-color: #333;
 }
-.navigation:hover {
-	width: 10em;
-}
+.navigation:hover { width: 10em; }
 
 .navigation ul,
 .navigation li { display: block; }
