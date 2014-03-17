@@ -21,7 +21,7 @@ You should add this comment to the beginning of the CSS code of this plugin:
 	Side Navigation Menu V2, RWD
 	===================
 	License:
-	http://goo.gl/MxER6F
+	http://goo.gl/805sas
 	===================
 	Author: @PableraShow
 
