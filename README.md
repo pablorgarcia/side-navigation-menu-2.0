@@ -79,7 +79,7 @@ nav {
 <p>You should add this comment to the beginning of the CSS code of this plugin:
 <pre>
 /*	
-	Side Navigation Menu V2
+	Side Navigation Menu V2, RWD
 	===================
 	License:
 	http://goo.gl/805sas
@@ -91,7 +91,7 @@ nav {
 And add another comment when finish the CSS code plugin:
 <pre>
 /*	
-	End of the Side Navigation Menu V2
+	End of the Side Navigation Menu V2, RWD
 	===================
 	Author: @PableraShow
 
