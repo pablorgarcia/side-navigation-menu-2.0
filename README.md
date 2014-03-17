@@ -1,7 +1,7 @@
 <h1>Side Navigation Menu V2, RWD</h1>
 
 <p>CSS3 transition, box-shadow, transform properties. Responsive Web Design technologies & without JS.</p>
-<a href="http://www.pablogarciafernandez.com/lab/demo/side-navigation-menu-v2.html" target="_blank">Check out the demo page</a>.
+<a href="http://codepen.io/PableraShow/pen/hubAa" target="_blank">Check out the demo page</a>.
 
 <h2>How it works</h2>
 
@@ -74,9 +74,29 @@ nav {
 
 <p>If you think you can make this better, please Download, Fork, & Commit. I'd love to see your ideas.</p>
 
-<a href="http://www.pablogarciafernandez.com/lab/side-navigation-menu-v2.html" target="_blank">Code original</a>
+<h2>License</h2>
 
-<a href="http://codepen.io/PableraShow/pen/hubAa" target="_blank">Demo on CodePen</a>
+<p>You should add this comment to the beginning of the CSS code of this plugin:
+<pre>
+/*	
+	Side Navigation Menu V2
+	===================
+	License:
+	http://goo.gl/805sas
+	===================
+	Author: @PableraShow
+
+*/
+</pre>
+And add another comment when finish the CSS code plugin:
+<pre>
+/*	
+	End of the Side Navigation Menu V2
+	===================
+	Author: @PableraShow
+
+*/
+</pre></p>
 
 ===================
 
