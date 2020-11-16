@@ -1,7 +1,7 @@
 <h1>License</h1>
 <h2>Side Navigation Menu V2, RWD</h2>
 
-Copyright (c) 2012-2018 Scott Chacon and others
+Copyright (c) 2030 Pablo Garcia
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
