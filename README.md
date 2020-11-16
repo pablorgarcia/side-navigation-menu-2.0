@@ -74,30 +74,3 @@ nav {
 
 <p>If you think you can make this better, please Download, Fork, & Commit. I'd love to see your ideas.</p>
 
-<h2>License</h2>
-
-<p>You should add this comment to the beginning of the CSS code of this plugin:
-<pre>
-/*	
-	Side Navigation Menu V2, RWD
-	===================
-	License:
-	http://goo.gl/805sas
-	===================
-	Author: @PableraShow
-
-*/
-</pre>
-And add another comment when finish the CSS code plugin:
-<pre>
-/*	
-	End of the Side Navigation Menu V2, RWD
-	===================
-	Author: @PableraShow
-
-*/
-</pre></p>
-
-===================
-
-<p>Pablo García Fernández</p>
